@@ -1,5 +1,5 @@
 {
-    "name": "liquidpl/blade-no-single-letter",
+    "name": "liquidpl/blade-no-single-letter-words",
     "description": "Adds a tag to Blade which pushes one character words in paragraphs to the next line.",
     "type": "library",
     "license": "MIT",
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LiquidPL\\BladeNoSingleLetter\\": "src/"
+            "LiquidPL\\BladeNoSingleLetterWords\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LiquidPL\\BladeNoSingleLetter\\BladeNoSingleLetterProvider"
+                "LiquidPL\\BladeNoSingleLetterWords\\BladeNoSingleLetterWordsProvider"
             ]
         }
     }
