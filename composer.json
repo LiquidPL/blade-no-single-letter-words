@@ -1,0 +1,16 @@
+{
+    "name": "liquidpl/blade-no-single-letter",
+    "description": "Adds a tag to Blade which pushes one character words in paragraphs to the next line.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krzysztof Gutkowski",
+            "email": "krzysio.gutkowski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "^5.8|^6"
+    }
+}
