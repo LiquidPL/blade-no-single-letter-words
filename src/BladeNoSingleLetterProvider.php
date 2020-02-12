@@ -14,7 +14,7 @@ class BladeNoSingleLetterProvider extends ServiceProvider
         });
 
         Blade::directive('endnosingleletter', function () {
-            return "<?php echo preg_replace('/(\s\S{1,2})\s(?![^<]>)/m', '$1&nbsp;', ob_get_clean()) ?>";
+            return "<?php echo preg_replace('/(\s\S{1,2})\s(?![^<]*>)/m', '$1&nbsp;', ob_get_clean()) ?>";
         });
     }
 }
