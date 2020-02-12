@@ -12,5 +12,17 @@
     "require": {
         "php": ">=7.2",
         "illuminate/support": "^5.8|^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "LiquidPL\\BladeNoSingleLetter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LiquidPL\\BladeNoSingleLetter\\BladeNoSingleLetterProvider"
+            ]
+        }
     }
 }
